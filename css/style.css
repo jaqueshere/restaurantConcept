@@ -1,0 +1,159 @@
+
+body {
+	background-color: black;
+	color: white;
+}
+
+#navContainer {
+	padding: 0;
+	background-color: purple;
+}
+
+.navbar {
+	background-color: purple;
+	float: right;
+	border: none;
+	padding:4px;
+	margin-bottom: 0;
+}
+
+.nav {
+	
+}
+
+.nav-tabs {
+	border-bottom:none;
+}
+
+#headLine {
+	border-left: 2px solid purple;
+	border-right: 2px solid purple;	
+	height:10rem;
+}
+
+#headerPic {
+	width: 100%;
+}
+
+#bodyOne {
+	border-left: 2px solid purple;
+	border-right: 2px solid purple;	
+}
+
+.boxHead {
+	position:relative;
+	width: 100%;
+	background: darkgray;
+}
+
+#bodyOne div iframe {
+	max-width: 100%;
+	height:250px;
+}
+
+#toolGallery .row {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.galleryFrame {
+	display:inline-block;
+	padding: 1px;
+	overflow:hidden;
+}
+
+.galleryFrame img {
+	width: 100%;
+}
+
+#toolGallery .row div {
+	/*padding: 1px;*/
+}
+
+#bodyTwo {
+	border-left: 2px solid purple;
+	border-right: 2px solid purple;	
+
+}
+
+.freeLink {
+	color: darkgray;
+	background-color: white;
+	padding: 0.5rem;
+	font-size: 1.25rem;
+}
+
+.featureFrame img {
+	width:100%;
+}
+
+.resourceBox {
+	background-color: white;
+	color:darkgray;
+	font-size:1.25rem;
+	height: 72px;
+	overflow:hidden;
+	padding: 0.5rem;
+}
+
+#footer {
+	border-left: 2px solid purple;
+	border-right: 2px solid purple;
+	border-bottom: 2px solid purple;
+	border-radius: 0 0 15px 15px;	
+	background-color: gray;
+}
+
+.mediaLink {
+	display: inline-block;
+}
+@media (min-width: 320px) and (max-width:350px) {
+	.galleryFrame {
+		width: 32.25%;
+		height:90px;
+		overflow: hidden;
+	}
+
+	.featureFrame {
+		width: 32.25%;
+		display:inline-block;
+		overflow: hidden;
+	}
+}
+
+@media  (min-width: 600px) {
+
+	.galleryFrame {
+		width: 32.5%;
+		height: 111px;
+		overflow: hidden;
+	}
+
+	.featureFrame {
+		width: 32.5%;
+		display:inline-block;
+		overflow: hidden;
+	}
+}
+
+@media (min-width: 800px) {
+	#bodyOne div iframe {
+		height: 300px;
+	}
+
+	.galleryFrame {
+		width: 32.5%;
+		height:148px;
+		overflow: hidden;
+	}
+
+	.featureFrame {
+		width: 32.5%;
+		display:inline-block;
+		overflow:hidden;
+	}
+
+	.resourceBox {
+		height:81px;
+	}
+}
